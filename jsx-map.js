@@ -8,6 +8,7 @@ const tasks = [
 ];
 const div = (
   <>
+    <h1>Danh sách tasks</h1>
     <ul>
       {tasks.map((task) => (
         <li key={task.id} className={task.isCompleted ? "isCompleted" : ""}>
